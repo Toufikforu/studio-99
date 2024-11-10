@@ -19,7 +19,7 @@ const SocialPrespectives: React.FC = () => {
   ];
 
   const newTitles = [
-    "Popular Movie 1",
+    "Popular ss Movie 1",
     "Popular Movie 2",
     "Popular Movie 3",
     "Popular Movie 4",
