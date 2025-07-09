@@ -50,11 +50,7 @@ const Footer: React.FC = () => {
                       Talk Shows
                     </Link>
                   </li>
-                  <li className="nav-item">
-                    <Link to="/inspirational" className="text-white">
-                      Inspirational
-                    </Link>
-                  </li>
+                  
                 </ul>
               </div>
               {/* Column 2 */}
@@ -75,11 +71,7 @@ const Footer: React.FC = () => {
                       E-Books
                     </Link>
                   </li>
-                  <li className="nav-item">
-                    <Link to="/legality" className="text-white">
-                      Legality
-                    </Link>
-                  </li>
+                  
                 </ul>
               </div>
               {/* Column 3 */}
