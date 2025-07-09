@@ -35,7 +35,7 @@ const SocialPrespectives: React.FC = () => {
 
   return (
     <div>
-      <h2 className="sec-title">Social Prespectives</h2>
+      <h2 className="sec-title">Drama Reality & Sitcoms</h2>
       <CarouselComponent
         images={newImages}
         titles={newTitles}

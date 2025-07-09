@@ -18,7 +18,9 @@ function App() {
 
       {/* Background Section with Centered Buttons */}
       <section className="bg-dark-studio text-left py-5 d-flex justify-content-end">
-        <button className="btn btn-light mx-4 px-5 py-3">WATCH SNIPPETS</button>
+        <button className="btn btn-light mx-4 px-5 py-3 active">
+          WATCH SNIPPETS
+        </button>
         <button className="btn btn-dark-tou mx-4 px-5 py-3">
           STREAM ON APP
         </button>
