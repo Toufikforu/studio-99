@@ -1,0 +1,67 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+/* Active Button */
+.active,
+.brand {
+  background-color: #aa0d0d !important;
+  color: #ffffff !important;
+}
+
+/* Footer Text Upper Case */
+
+footer a {
+  text-transform: uppercase;
+}
+
+/* Auth Login and Register  */
+.auth-wrapper {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("/img/auth-bg.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* Dark overlay */
+.auth-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.auth-box {
+  position: relative;
+  z-index: 2;
+  background: rgb(74 72 72 / 95%);
+  padding: 2rem;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+.auth-logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 1rem;
+}

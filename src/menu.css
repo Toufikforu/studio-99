@@ -1,0 +1,109 @@
+/* menu.css */
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -260px;
+  width: 250px;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.15);
+  transition: left 0.3s ease-in-out;
+  z-index: 1050;
+}
+
+.sidebar.open {
+  left: 0;
+}
+
+.sidebar .close-btn {
+  font-size: 2rem;
+  border: none;
+  background: none;
+  padding: 1rem;
+  cursor: pointer;
+  width: 100%;
+  text-align: right;
+}
+
+.sidebar ul li a {
+  display: block;
+  padding: 0.75rem 1rem;
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.sidebar ul li a:hover {
+  background-color: #aa0d0d;
+  color: #fff;
+}
+
+.sidebar-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1040;
+}
+
+.menu-toggle .navbar-toggler-icon {
+  filter: brightness(100);
+}
+
+.white-icon {
+  filter: brightness(200%);
+}
+
+.top-bar {
+  position: sticky;
+  top: 0;
+  z-index: 1030;
+  background-color: #fff;
+}
+
+/* Button */
+.tou-btn {
+  padding: 20px 50px;
+  font-size: 22px;
+}
+
+.tou-btn:hover {
+  background-color: #aa0d0d;
+  color: #ffffff;
+}
+
+/* App Store Button */
+.store-btn {
+  max-height: 40px;
+  object-fit: contain;
+  border: 1px solid #fff;
+}
+
+/* Sticky Menu */
+.main-menu-bar {
+  position: sticky;
+  top: 0;
+  z-index: 1050;
+}
+
+/* Login Icon */
+.sidebar .fa-user-circle {
+  font-size: 6rem;
+}
+
+/* Sidebar hr line */
+.sidebar hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 0 1rem;
+}
+
+/* Menu Hover Color */
+.btn:hover {
+  color: #ffffff;
+  background-color: #aa0d0d;
+  border-color: #aa0d0d;
+}

@@ -33,57 +33,57 @@ const Footer: React.FC = () => {
             {/* Left Column with Page Lists (4 Columns) */}
             <div className="col-md-10 row">
               {/* Column 1 */}
-              <div className="col-md-3">
+              <div className="col-md-4">
                 <ul className="list-unstyled">
                   <li>
                     <Link to="/" className="text-white">
                       Home
                     </Link>
                   </li>
-                  <li>
-                    <Link to="/livestream" className="text-white">
-                      Livestream
+                  <li className="nav-item">
+                    <Link to="/drama" className="text-white">
+                      Drama Reality & Sitcoms
                     </Link>
                   </li>
-                  <li>
-                    <Link to="/studio-movies" className="text-white">
-                      Studio Movies
+                  <li className="nav-item">
+                    <Link to="/talk-shows" className="text-white">
+                      Talk Shows
                     </Link>
                   </li>
-                  <li>
-                    <Link to="/studio-on-location" className="text-white">
-                      Studio on-location
+                  <li className="nav-item">
+                    <Link to="/inspirational" className="text-white">
+                      Inspirational
                     </Link>
                   </li>
                 </ul>
               </div>
               {/* Column 2 */}
-              <div className="col-md-3">
+              <div className="col-md-4">
                 <ul className="list-unstyled">
-                  <li>
-                    <Link to="/studio-network" className="text-white">
-                      Studio network
+                  <li className="nav-item">
+                    <Link to="/movies" className="text-white">
+                      Movies
                     </Link>
                   </li>
-                  <li>
-                    <Link to="/studio-music" className="text-white">
-                      Studio Music
+                  <li className="nav-item">
+                    <Link to="/music" className="text-white">
+                      Music
                     </Link>
                   </li>
-                  <li>
-                    <Link to="/stream-on-app" className="text-white">
-                      Stream On App
+                  <li className="nav-item">
+                    <Link to="/ebooks" className="text-white">
+                      E-Books
                     </Link>
                   </li>
-                  <li>
-                    <Link to="/2025-season-lineup" className="text-white">
-                      2025 season line-up
+                  <li className="nav-item">
+                    <Link to="/legality" className="text-white">
+                      Legality
                     </Link>
                   </li>
                 </ul>
               </div>
               {/* Column 3 */}
-              <div className="col-md-3">
+              <div className="col-md-4">
                 <ul className="list-unstyled">
                   <li>
                     <Link to="/ssl" className="text-white">
@@ -108,7 +108,7 @@ const Footer: React.FC = () => {
                 </ul>
               </div>
               {/* Column 4 */}
-              <div className="col-md-3">
+              {/* <div className="col-md-3">
                 <ul className="list-unstyled">
                   <li>
                     <Link to="/demo-drop" className="text-white">
@@ -131,7 +131,7 @@ const Footer: React.FC = () => {
                     </Link>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
 
             {/* Right Column with Contact Us and Login/Sign-Up Links */}
@@ -139,7 +139,7 @@ const Footer: React.FC = () => {
               <ul className="list-unstyled">
                 <li>
                   <Link to="/contact-us" className="text-white">
-                    Contact Us
+                    Subscribe
                   </Link>
                 </li>
                 <li>
@@ -150,11 +150,7 @@ const Footer: React.FC = () => {
               </ul>
               {/* Logo at the Bottom */}
               <div className="mt-4">
-                <img
-                  src="https://placehold.co/150x50"
-                  alt="Logo"
-                  className="img-fluid"
-                />
+                <img src="/icon/ssl.png" alt="SSL" className="img-fluid" />
               </div>
             </div>
           </div>

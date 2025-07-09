@@ -11,10 +11,12 @@ import SSL from "./pages/ssl";
 import Privacy from "./pages/privacy";
 import Terms from "./pages/terms";
 import Cookies from "./pages/cookies";
-import LiveStream from "./pages/LiveStream";
 import ShowLineUp from "./pages/ShowLineUp";
 import DemoDrop from "./pages/DemoDrop";
 import ContactUs from "./pages/ContactUS";
+import Drama from "./pages/Drama";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -23,7 +25,9 @@ createRoot(document.getElementById("root")!).render(
       <Routes>
         {/* Define routes for each page */}
         <Route path="/" element={<Home />} />
-        <Route path="/livestream" element={<LiveStream />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/drama" element={<Drama />} />
         <Route path="/show-line-up" element={<ShowLineUp />} />
         <Route path="/demo-drop" element={<DemoDrop />} />
         <Route path="/contact-us" element={<ContactUs />} />

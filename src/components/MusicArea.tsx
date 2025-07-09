@@ -22,7 +22,7 @@ function MusicArea() {
               This is a brief description of the music video, highlighting the
               artist's style, genre, and key elements of the video.
             </p>
-            <a href="#" className="btn btn-primary">
+            <a href="#" className="btn btn-outline-light px-5 brand">
               Watch Now
             </a>
           </div>
